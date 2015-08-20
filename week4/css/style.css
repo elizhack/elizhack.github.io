@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:300,300italic,600,600italic|Crimson+Text:400,400italic,700,700italic|Playfair+Display:400,400italic,700,700italic|Raleway:200,300,400,500,600);
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #EFF9FF;
+	/*font-family: 'Playfair', serif;*/
+	font-family: 'Raleway', sans-serif;
+	color: #aaa;
+	text-align: left;
+	margin: 5%;
+	letter-spacing: 1px;
+}
+h1{ 
+	font-family: 'Josefin Slab', serif;
+	font-size: 45px;
+	font-weight: 300;
+
+ /* display: inline-block; */ 
+ float: left; 
+ margin-top: 0;
+}
+p{
+	margin-top: 1%;
+}
+
+#slogan{
+	font-style: italic;
+	 /*display: inline-block; */
+	float: left;
+	margin-left: 40px;
+	font-size: 18px;
+	margin-top: 25px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-style: italic;
+	font-weight: 700;
+}
+a:hover{
+	background-color: #ccc;
+}
+#contact{
+	font-size: 18px;
+	float: left;
+	margin-left: 387px;
+	margin-top: 60px;
+	clear: both;
+}
+
+.footer{
+	font-size: 10px;
+	line-height: 1.5em;
+	margin-left: 387;
+	width: 768;
+	float: left;
+	margin-top: 10%; 
+}
+ul{
+	list-style: none;
+	float: right;	
+	/* display: inline-block; */
+	margin-top: 60px;
+	clear:both;
+}
+li{
+	float: left;
+	font-size: 20px;
+/*	margin-left: 5px;
+*/	margin-right: 10px;
+}
+ul a{
+	display: block;
+	width: 182px;
+	height: 1.5em;
+	padding-top: 5%;
+	background-color: #ccc;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.25em;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 1px;
+
+}
+ul a:hover{
+	color: #000;
+	font-weight: 600;
+}
+img{
+	float: left;
+	margin-right: 10px;
+	height: 200px;
+}
+/*hr{
+	width: 100%;
+	border-style: none;
+	border-width: 0px;
+	margin-top: 20px;
+}*/
+
+#wrapper {
+	width: 1155px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#photos {
+	clear: both;
+	padding-top: 20px;
+}
