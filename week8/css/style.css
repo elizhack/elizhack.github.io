@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:300,300italic,600,600italic|Crimson+Text:400,400italic,700,700italic|Playfair+Display:400,400italic,700,700italic|Raleway:200,300,400,500,600);
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #EFF9FF;
+	/*font-family: 'Playfair', serif;*/
+	font-family: 'Raleway', sans-serif;
+	color: #aaa;
+	margin: 2% auto;
+	letter-spacing: 1px;
+}
+h1{ 
+	font-family: 'Josefin Slab', serif;
+	font-size: 3.5em;
+	font-weight: 300;
+	text-align: center;
+ /* display: inline-block; */ 
+/* float: left; 
+*/ 	
+}
+
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-style: italic;
+	font-weight: 700;
+}
+a:hover{
+	background-color: #ccc;
+	color: #fff;
+}
+
+nav{
+/*	float: right;	
+*/	font-size: 1em;
+	/* display: inline-block; */
+	clear: both;
+	width: 70%;
+	margin: 0 15%;
+
+}
+li{
+	float: left;
+/*	font-size: 1em;
+*/	width: 23%;
+	margin: 0 1%;
+	text-align: center;
+	color: #000;
+	background-color: #ccc;
+/*	margin-left: 5px;
+	margin-right: 10px;*/
+}
+nav a{
+	display: inline-block;
+	margin: 10%;
+	height: 1em;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 1px;
+	background-color: #ccc;
+	padding: 5%;
+
+
+}
+/*a:hover{
+	color: #000;
+	font-weight: 600;
+}*/
+img{
+	float: left;
+	margin-right: 5px;
+	height: 100%;
+}
+#scroll{
+	width: 150%;
+}
+hr{
+	width: 80%;
+	border-width: 1px;
+	margin: 1% 10%;
+}
+#contact{
+	width: 40%;
+	background-color: #ccc;
+	font-size: 1em;
+	text-align: center;
+	margin: 0 30%;
+	padding: 2%;
+	clear: both;
+}
+
+#wrapper {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#photos {
+	clear: both;
+	padding-top: 5%;
+	width: 80%;
+	height: 50%;
+	margin: 10%;
+	overflow: scroll;
+}
+
+@media screen only and (max-width: 900px) {
+	h1 {
+	font-size: 3em;
+	}
+	nav{
+		width: auto;
+	}
+
+	#wrapper{
+	width: auto;
+	}
+}
+
+@media screen only and (max-width: 400px) {
+	h1 {
+	font-size: 2em;
+	}
+	nav{
+		width: auto;
+	}
+	nav a{
+		display: block;
+	}
+	#wrapper{
+		width: auto;
+	}
+}
