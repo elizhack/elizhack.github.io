@@ -45,8 +45,7 @@ nav{
 }
 li{
 	float: left;
-/*	font-size: 1em;
-*/	width: 23%;
+	width: 23%;
 	margin: 0 1%;
 	text-align: center;
 	color: #000;
@@ -56,13 +55,14 @@ li{
 }
 nav a{
 	display: inline-block;
-	margin: 10%;
+	margin: 5%;
 	height: 1em;
 	font-style: normal;
 	font-weight: 300;
 	letter-spacing: 1px;
 	background-color: #ccc;
-	padding: 5%;
+	padding: 2%;
+
 
 
 }
@@ -84,7 +84,7 @@ hr{
 	margin: 1% 10%;
 }
 #contact{
-	width: 40%;
+	width: 35%;
 	background-color: #ccc;
 	font-size: 1em;
 	text-align: center;
@@ -101,10 +101,10 @@ hr{
 
 #photos {
 	clear: both;
-	padding-top: 5%;
+	padding-top: 2%;
 	width: 80%;
-	height: 50%;
-	margin: 10%;
+	height: 40%;
+	margin: 7% 10% 5%;
 	overflow: scroll;
 }
 
