@@ -39,29 +39,24 @@ nav{
 */	font-size: 1em;
 	/* display: inline-block; */
 	clear: both;
-	width: 70%;
-	margin: 0 15%;
+	text-align: center;
 
 }
-li{
-	float: left;
-	width: 23%;
-	margin: 0 1%;
-	text-align: center;
-	color: #000;
-	background-color: #ccc;
-/*	margin-left: 5px;
-	margin-right: 10px;*/
-}
+
 nav a{
 	display: inline-block;
-	margin: 5%;
 	height: 1em;
 	font-style: normal;
 	font-weight: 300;
 	letter-spacing: 1px;
 	background-color: #ccc;
-	padding: 2%;
+	padding: 1%;
+
+	width: 15%;
+	margin: 0 1%;
+	text-align: center;
+	color: #000;
+	background-color: #ccc;
 
 
 
@@ -77,6 +72,7 @@ img{
 }
 #scroll{
 	width: 150%;
+	height:  100%;
 }
 hr{
 	width: 80%;
@@ -101,10 +97,10 @@ hr{
 
 #photos {
 	clear: both;
-	padding-top: 2%;
+	/* padding-top: 2%; */
 	width: 80%;
-	height: 40%;
-	margin: 7% 10% 5%;
+	height: 400px;
+	margin: 5% auto;
 	overflow: scroll;
 }
 
@@ -130,8 +126,22 @@ hr{
 	}
 	nav a{
 		display: block;
+		width: auto;
 	}
 	#wrapper{
 		width: auto;
 	}
+	#scroll, #photos{
+	width: auto;
+	overflow: initial;
+	height: auto;
+	}
+	img{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+		height: auto;
+		float: none;
+	}
+
 }
