@@ -108,7 +108,7 @@ hr{
 	overflow: scroll;
 }
 
-@media screen only and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
 	h1 {
 	font-size: 3em;
 	}
@@ -121,7 +121,7 @@ hr{
 	}
 }
 
-@media screen only and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
 	h1 {
 	font-size: 2em;
 	}
